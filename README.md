@@ -7,8 +7,7 @@ Before install certify that you have all the requeriments installed.
 On Debian and childs just run:
 
 ```
-sudo apt install python3 python3-pip
-pip install subprocess
+sudo apt install python3
 ```
 
 # Setup
