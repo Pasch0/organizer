@@ -1,9 +1,7 @@
 # Organizer
-============
 A simple python script to organize your download folder 🐧
 
 # Requeriments
-===============
 
 Before install certify that you have all the requeriments installed.
 On Debian and childs just run:
@@ -14,7 +12,6 @@ pip install subprocess
 ```
 
 # Setup
-========
 
 To install organizer just copy & paste into your terminal:
 
