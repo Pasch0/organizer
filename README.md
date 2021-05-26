@@ -19,3 +19,26 @@ git clone https://github.com/Pasch0/organizer.git
 cd organizer
 python3 setup.py
 ```
+
+# Usage
+
+After installed, Organizer has two commands. The both will be add to your ~/.bashrc during installation.
+To start organizer just type:
+
+```
+organizer
+```
+
+And to stop type:
+
+```
+stop
+```
+
+# Uninstall
+
+I hope you don't need to uninstall this tool, but if u decided to, just execute the uninstaller:
+
+```
+sudo bash uninstall.sh
+``` 
