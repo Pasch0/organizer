@@ -22,7 +22,7 @@ python3 setup.py
 
 # Usage
 
-After installed, Organizer has two commands. The both will be add to your ~/.bashrc during installation.
+After installed, Organizer has two commands. The both will be added to your ~/.bashrc during installation.
 To start organizer just type:
 
 ```
@@ -41,4 +41,4 @@ I hope you don't need to uninstall this tool, but if u decided to, just execute 
 
 ```
 sudo bash uninstall.sh
-``` 
+```
