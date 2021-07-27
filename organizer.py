@@ -11,7 +11,7 @@ videos = (".mp4", ".mov", ".webm", ".kmv")
 musicas = (".mp3", ".wav", ".mpeg3")
 desenvolmimento = (".py", ".php", ".html", ".json", ".css", ".js")
 executaveis = (".exe", ".sh", ".deb", ".appimage")
-texto = (".txt", ".pdf", ".odt")
+texto = (".txt", ".pdf", ".odt", ".pptx", ".doc", ".docx")
 
 # Pastas a serem criadas caso não existam
 diretorios = [
