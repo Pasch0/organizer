@@ -43,30 +43,31 @@ def criar_diretorios():
 
 # Move os arquivos para suas respectivas pastas
 def mover_arquivos():
-	for arquivo in arquivos:
-		if arquivo.endswith(texto):
-			comando = ['mv', pasta_monitorada + arquivo, organizer_path + diretorios[6]]
-			mv = sp.Popen(comando)
-		elif arquivo.endswith(executaveis):
-			comando = ['mv', pasta_monitorada + arquivo, organizer_path + diretorios[5]]
-			mv = sp.Popen(comando)
-		elif arquivo.endswith(desenvolmimento):
-			comando = ['mv', pasta_monitorada + arquivo, organizer_path + diretorios[4]]
-			mv = sp.Popen(comando)
-		elif arquivo.endswith(musicas):
-			comando = ['mv', pasta_monitorada + arquivo, organizer_path + diretorios[3]]
-			mv = sp.Popen(comando)
-		elif arquivo.endswith(videos):
+    for arquivo in arquivos:
+        if arquivo.endswith(texto):
+            comando = ["mv", pasta_monitorada + arquivo, organizer_path + diretorios[6]]
+            mv = sp.Popen(comando)
+        elif arquivo.endswith(executaveis):
+            comando = ["mv", pasta_monitorada + arquivo, organizer_path + diretorios[5]]
+            mv = sp.Popen(comando)
+        elif arquivo.endswith(desenvolmimento):
+            comando = ["mv", pasta_monitorada + arquivo, organizer_path + diretorios[4]]
+            mv = sp.Popen(comando)
+        elif arquivo.endswith(musicas):
+            comando = ["mv", pasta_monitorada + arquivo, organizer_path + diretorios[3]]
+            mv = sp.Popen(comando)
+        elif arquivo.endswith(videos):
 			comando = ['mv', pasta_monitorada + arquivo, organizer_path + diretorios[2]]
 			mv = sp.Popen(comando)
 		elif arquivo.endswith(imagens):
-			comando = ['mv', pasta_monitorada + arquivo, organizer_path + diretorios[1]]
-			mv = sp.Popen(comando)
-		elif arquivo.endswith(compactados):
+            comando = ["mv", pasta_monitorada + arquivo, organizer_path + diretorios[1]]
+            mv = sp.Popen(comando)
+        elif arquivo.endswith(compactados):
 			comando = ['mv', pasta_monitorada + arquivo, organizer_path + diretorios[0]]
 			mv = sp.Popen(comando)
 		elif arquivo.endswith('stop'):
 			stop.insert(0, arquivo)
+
 
 criar_diretorios()
 while stop[0] == '1':
