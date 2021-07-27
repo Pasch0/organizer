@@ -1,5 +1,6 @@
 # Importar módulo subprocess que permite executar comandos do SO
 import subprocess as sp
+
 # Importar módulo time
 from time import sleep
 
